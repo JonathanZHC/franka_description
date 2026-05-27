@@ -1,4 +1,4 @@
-franka_description
+franka_description (modified version)
 ==================
 
 .. image:: https://github.com/frankarobotics/franka_description/actions/workflows/generate-urdfs.yml/badge.svg
@@ -32,7 +32,7 @@ from the ``create_urdf.py``.
 .. code-block:: bash
 
    # Start the generation of the urdf model
-   ./scripts/create_urdf.sh <robot_type>
+   ./scripts/create_urdf.sh fr3
 
 The urdf generation is performed by the ``create_urdf.py`` script which offers several parameters to customize
 the output urdf model:
